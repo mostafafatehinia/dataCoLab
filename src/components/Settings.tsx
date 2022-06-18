@@ -6,7 +6,7 @@ export const Settings = (): JSX.Element => {
 	const [searchText, setSearchText] = useState<string>("");
 
 	return (
-		<div className='flex flex-col w-full'>
+		<div className='flex flex-col w-full dark:bg-gray-800'>
 			<div className='flex justify-end mr-60'>
 				<SearchBar onSearch={setSearchText} searchText={searchText} />
 			</div>

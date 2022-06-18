@@ -7,7 +7,7 @@ export const Categories = (): JSX.Element => {
 	const [category, setCategory] = useState<"drive" | "hubSpot" | "pipDrive">("drive");
 
 	return (
-		<div className='w-5/6'>
+		<div className='w-5/6 dark:bg-gray-800'>
 			<Navigation
 				onSearch={setSearchText}
 				searchText={searchText}

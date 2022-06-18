@@ -16,7 +16,7 @@ export const Button = ({
 			${active && activeBgColor + " " + activeColor}
 			 ${
 					shadow && " shadow-lg drop-shadow-lg border border-gray-100"
-				} flex justify-between items-center px-4 w-40 py-2 mt-2 mr-2 text-sm font-semibold rounded-lg hover:bg-[#6864CF]`}
+				} flex justify-between items-center px-4 w-40 py-2 mt-2 mr-2 text-sm font-semibold rounded-lg dark:border dark:border-gray-200 hover:bg-[#6864CF]`}
 		>
 			{icon}
 			{text}

@@ -18,4 +18,10 @@ export interface SearchBarProps {
 export interface SideBarProps {
 	active: boolean;
 	setActive: (value: boolean) => void;
+	darkMode: boolean;
+	setDarkMode: (value: boolean) => void;
+}
+
+export interface ToggleIconProps {
+	onClick: () => void;
 }
